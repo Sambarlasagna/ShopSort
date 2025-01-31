@@ -3,7 +3,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import re
 
 def product(pd_name):
     #Create an empty dictionary to store the data(Platform name, Price and Platform link)
