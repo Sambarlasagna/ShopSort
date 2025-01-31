@@ -10,7 +10,7 @@ def product(pd_name):
     pd_data['Platform']=[]
     pd_data['Price']=[]
     pd_data['Platform link']=[]
-    service = Service(r"D:\chromedriver-win64\chromedriver-win64\chromedriver.exe")
+    service = Service(r"Enter your driver path")
 
     driver = webdriver.Chrome(service=service)
     review_stars = None
